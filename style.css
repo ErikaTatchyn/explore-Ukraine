@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  color: #0055a4; /* Blue color from the Ukrainian flag */
+}
+
+#location-form {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#city-select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+#explore-button {
+  background-color: #ffd100; /* Yellow color from the Ukrainian flag */
+  color: #0055a4;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#explore-button:hover {
+  background-color: #ffb800; /* Darker yellow on hover */
+}
+
+#city-info {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.city-image {
+  width: 700px;
+  height: auto; /* Auto height to maintain aspect ratio */
+  display: block;
+  margin: 20px auto; /* Center horizontally and add vertical spacing */
+  border-radius: 10px;
+}
